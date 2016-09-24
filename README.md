@@ -10,9 +10,9 @@ To run any example just do `cd ./EXAMPLE_FOLDER` from within the repository root
 
 - [./react-i18n](https://github.com/ggarek/ask-me-an-example/tree/master/react-i18n)
 
-It is simple example using intl and intl-messageformat for i18n.
+It is simple example using [intl](https://github.com/andyearnshaw/Intl.js) and [intl-messageformat](https://github.com/yahoo/intl-messageformat) for i18n.
 The example is built with: react, webpack, intl, intl-messgeformat.
 
 - [./react-intl](https://github.com/ggarek/ask-me-an-example/tree/master/react-intl)
 
-A simple example demonstarting i18n in React app using react-intl library. Built with: react, webpack, react-intl.
+A simple example demonstarting i18n in React app using [react-intl](https://github.com/yahoo/react-intl) library. Built with: react, webpack, react-intl.
