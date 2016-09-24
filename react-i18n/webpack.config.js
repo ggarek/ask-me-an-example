@@ -1,4 +1,3 @@
-const webpack = require('webpack');
 const path = require('path');
 
 const indir = (...parts) => path.join(__dirname, ...parts);
@@ -6,8 +5,12 @@ const indir = (...parts) => path.join(__dirname, ...parts);
 // TODO: add links to enhance/dig the topic
 
 module.exports = {
-  // TODO: example of output with entry: { app: './src/index.js' },
-  entry: './src/scripts/index.js', // Will be /{public_path}/main.js because it is the main chunk
+  devtool: "eval-source-map",
+  /**
+   * In this case the bundle can be accessed as `/{public_path}/main.js` because it is the main chunk.
+   * But you can set entry to `{ app: './src/scripts/index.js' }`, then it will be available at `/{public_path}/app.js`
+   */
+  entry: './src/scripts/index.js',
   output: {
     path: indir('build'),
     publicPath: '/assets/',
