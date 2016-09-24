@@ -17,6 +17,14 @@ export default function i18n(key, params) {
     return '';
   }
 
+  /**
+   * It is important to cache created message, because the construction is pretty heavy.
+   *
+   * Could use https://github.com/yahoo/intl-format-cache
+   * But for this example it is redundant.
+   * It may be of use if it will become necessary to switch locale dynamically.
+   * So do not hesitate to check it!
+   */
   const msg = cache[key] || new IntlMessageFormat(rawMsg, LOCALE);
   cache[key] = msg;
   return msg.format(params);
