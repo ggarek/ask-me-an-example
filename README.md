@@ -6,7 +6,7 @@ Each example is a self contained npm package, meaning it has its own dependencie
 To run any example just do `cd ./EXAMPLE_FOLDER` from within the repository root and execute `npm i && npm start`.
 
 
-# List of example
+# List of examples
 
 - [./react-i18n](https://github.com/ggarek/ask-me-an-example/tree/master/react-i18n)
 
