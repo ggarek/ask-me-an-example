@@ -1,0 +1,6 @@
+{
+  "greet": "Hello!",
+  "what-do-you-want": "What do you want today?",
+  "i-want": "I want",
+  "pancakes": "{count, plural, one {pancake} other {pancakes}}"
+}

@@ -1,6 +1,10 @@
 import IntlMessageFormat from 'intl-messageformat';
 
-const LOCALE = 'en'; // may be configured (passed from invoking side, read from window etc)
+/**
+ * Current locale may be configured by invoking side and accessed via window variable
+ * Or one can use navigator.language https://developer.mozilla.org/en-US/docs/Web/API/NavigatorLanguage/language
+ */
+const LOCALE = 'pt';
 export const messages = require(`../locales/${LOCALE}.json`);
 
 // TODO: this trick is necessary, because locale expects IntlMessageFormat at global. But it is thing to be changed in future Intl releases

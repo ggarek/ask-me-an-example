@@ -3,7 +3,7 @@ Bunch of accidental setup/usage examples yet for frontend people
 
 # How to work with examples
 Each example is a self contained npm package, meaning it has its own dependencies, version, build process etc.
-To run any example just do `cd ./EXAMPLE_FOLDER` from within the repository root and execute `npm start`.
+To run any example just do `cd ./EXAMPLE_FOLDER` from within the repository root and execute `npm i && npm start`.
 
 
 # List of example
@@ -13,6 +13,6 @@ To run any example just do `cd ./EXAMPLE_FOLDER` from within the repository root
 It is simple example using intl and intl-messageformat for i18n.
 The example is built with: react, webpack, intl, intl-messgeformat.
 
-- TODO [./react-intl](https://github.com/ggarek/ask-me-an-example/tree/master/react-intl)
+- [./react-intl](https://github.com/ggarek/ask-me-an-example/tree/master/react-intl)
 
 A simple example demonstarting i18n in React app using react-intl library. Built with: react, webpack, react-intl.
